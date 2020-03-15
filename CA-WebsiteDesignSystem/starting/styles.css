@@ -1,0 +1,85 @@
+h1,
+div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+}
+
+h1,
+h2,
+h3,
+p {
+    padding-left: 10px;
+}
+
+.container {
+    border: 2px solid rgba(132, 125, 125, 0.571);
+    margin: 15px;
+}
+
+.submain {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.colors>div {
+    height: 150px;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.colors>div>p {
+    padding: 10px;
+}
+
+.fonts>div {
+    margin: 10px;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.baloo {
+    font-family: "Baloo Da 2";
+}
+
+.bellota {
+    font-family: "Bellota Text";
+}
+
+.quicksand {
+    font-family: "Quicksand";
+}
+
+.examplesFonts {
+    width: 350px;
+    border: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+div :hover {
+    background-color: rgb(236, 235, 222);
+}
+
+#color-1 {
+    background-color: rgb(247, 164, 87);
+}
+
+#color-2 {
+    background-color: rgb(93, 190, 250);
+}
+
+#color-3 {
+    background-color: rgb(182, 179, 173);
+}
