@@ -7,8 +7,23 @@ import {Playlist} from '../Playlist/Playlist';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {SearchResults:  [SearchResults.name, SearchResults.artist, SearchResults.album, SearchResults.id]}
-  }
+    this.state = {searchResults:  [
+      {name:'aa', 
+      artist:'aa',
+      album:'aa',
+      id:'1'},
+
+      {name:'bb', 
+      artist:'bb',
+      album:'bb',
+      id:'2'},
+
+      {name:'cc', 
+      artist:'cc',
+      album:'cc',
+      id:'3'}
+    ]};
+   }
 
   render() {
     return (
@@ -17,7 +32,7 @@ class App extends React.Component {
       <div className="App">
         <SearchBar/>
       <div className="App-playlist">
-        <SearchResults searchResults={this.state.SearchResults}/>
+        <SearchResults searchResults={this.state.searchResults}/>
         <Playlist/>
     </div>
       </div>
