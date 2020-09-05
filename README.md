@@ -1,2 +1,0 @@
-# Codecademy
-Solutions of projects
