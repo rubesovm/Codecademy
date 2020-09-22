@@ -6,7 +6,6 @@ export class Track extends React.Component {
     super(props) 
     this.addTrack = this.addTrack.bind(this);
     this.removeTrack = this.removeTrack.bind(this);
-    this.renderAction = this.renderAction.bind(this);
   }
 
   renderAction() {
@@ -18,11 +17,11 @@ export class Track extends React.Component {
   }
 
   addTrack() {
-    this.props.onAdd = this.props.track;
+    this.props.onAdd(this.props.track);
   }
 
   removeTrack() {
-    this.props.onRemove = this.props.track;
+    this.props.onRemove(this.props.track);
   }
 
   render() {
